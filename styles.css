@@ -1,0 +1,35 @@
+html {
+    background-color: blanchedalmond;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+    color: #bb1010;
+}
+
+div {
+    margin-top: 40px;
+    font-size: 1em;
+    font-weight: 200;
+    color: #bb1010;
+}
+
+button {
+    color: #0c1bec;
+    font-weight: bold;
+    background-color: rgb(162, 175, 175);
+}
+
+#bottomImg {
+    width: 100%;
+    height: auto;
+}

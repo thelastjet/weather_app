@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Local Weather App</h1>
+        <hr>
+        <div id="inputContainer">
+            <label for="city">Enter your City:</label>
+            <input type="text" name="city" id="city" autofocus />
+            <button id="btn">Get Weather</button>
+        </div>
+        <div id="weatherContainer">
+            <h3 id="header">City</h3>
+            <p id="temp">Temperature</p>
+            <p id="description">Description</p>
+            <p id="wind">Wind</p>
+        </div>
+        <div id="bottomImg">
+            <img id="img" src="" width="860" height="545" alt="picture showing the weather">
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
